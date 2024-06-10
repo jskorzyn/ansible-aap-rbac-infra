@@ -1,0 +1,18 @@
+---
+controller_user_accounts:
+  - user: app_prod_admin
+    is_superuser: false
+    password: "{{ controller_password }}"
+#    organization: App_Prod
+  - user: app_prod_user
+    is_superuser: false
+    password: "{{ controller_password }}"
+#    organization: App_Prod
+  - user: infra_prod_admin
+    is_superuser: false
+    password: "{{ controller_password }}"
+#    organization: Infra_Prod
+  - user: infra_prod_user
+    is_superuser: false
+    password: "{{ controller_password }}"
+#    organization: Infra_Prod

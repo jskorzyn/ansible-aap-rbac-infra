@@ -1,0 +1,22 @@
+---
+controller_roles:
+- users: 
+    - app_prod_admin
+  roles: 
+    - admin
+  organization: App_Prod
+- users:
+    - app_prod_user
+  roles: 
+    - member
+  organization: App_Prod
+- users:
+    - infra_prod_admin
+  roles: 
+    - admin
+  organization: Infra_Prod
+- users:
+    - infra_prod_user
+  roles: 
+    - member
+  organization: Infra_Prod

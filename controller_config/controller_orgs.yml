@@ -1,0 +1,14 @@
+---
+controller_organizations:
+- name: Default
+  description: This is the Default Group
+  state: "{{ config_state | default('present') }}"
+#  max_hosts: "{{  | default(omit)}}"
+- name: Infra_Prod
+  description: This is the Infra Prod Org
+  state: "{{ config_state | default('present') }}"
+#  max_hosts: "{{ default(omit)}}"
+- name: App_Prod
+  description: This is the App Prod Org
+  state: "{{ config_state | default('present') }}"
+#  max_hosts: "{{ default(omit)}}"
